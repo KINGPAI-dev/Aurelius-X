@@ -1,6 +1,6 @@
 export const executeCommand = async (prompt) => {
   // Masih pake key rahasia lu yang tadi
-  const MY_API_KEY = "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"; 
+  const MY_API_KEY = "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"; 
 
   try {
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
